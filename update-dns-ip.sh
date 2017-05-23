@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./config
+HE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source $HE_DIR/config
 touch $DYDNS_LOG_FILE
 
 actualsize=$(wc -c <"$DYDNS_LOG_FILE")
