@@ -1,0 +1,4 @@
+export DYDNS_LOG_FILE=$HOME/dynamic-dns/update.log
+export HE_DOMAIN=yourname.yourdomain.com
+export HE_PASS=your_hurricane_electric_password
+export LOG_MAX_SIZE=600000
